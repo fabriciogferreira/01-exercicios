@@ -1,0 +1,12 @@
+*{
+    height: 100%;
+}
+body{
+    background: linear-gradient(45deg, #4fffdc, #3fccB0, #3D85D7);
+}
+h1{
+    background: linear-gradient(45deg, #ffffff, #000000);
+}
+p{
+    background:  radial-gradient( rgb(255, 100, 255), rgb(255, 200, 255));
+}
