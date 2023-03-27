@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: blue;
+}
+
+#main{
+    text-align: center;
+    background-color: coral;
+    color: white;
+}
+
+h2{
+    color: cadetblue;
+}
+
+.basico{
+    color: blue;
+}
+
+.intermdiario{
+    color: blueviolet;
+}
+
+.avancado{
+    color: brown;
+}
+
+.destaque{
+    background-color: yellow;
+}
