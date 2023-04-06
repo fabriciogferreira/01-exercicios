@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkcyan;
+            margin: 0px;
+        }
+        h2{
+            box-shadow: 0px 0px 3px 1px black;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: orangered;
+            padding: 3px;
+            box-shadow: /*coloque 'inset' aqui*/3px 3px 3px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+        article > aside{
+            background-color: rgba(165, 165, 165, 1.0);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 10px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="b">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores saepe quo iure natus odio quisquam excepturi porro ea dolore, minima, provident earum voluptatum ratione consectetur. Voluptates laudantium veniam laborum magni?</p>
+                <aside>
+                    <p>Artigo exrito pot José da Slva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Densenvolvido pelo Cursoemvídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>
