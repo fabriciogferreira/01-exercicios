@@ -1,0 +1,13 @@
+def grade(tmnHorizontalGrade):
+    print("+"+"-"*tmnHorizontalGrade+"+"+"-"*tmnHorizontalGrade+"+")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("+"+"-"*tmnHorizontalGrade+"+"+"-"*tmnHorizontalGrade+"+")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("|"+" "*tmnHorizontalGrade+"|"+" "*tmnHorizontalGrade+"|")
+    print("+"+"-"*tmnHorizontalGrade+"+"+"-"*tmnHorizontalGrade+"+")
+grade(10)
