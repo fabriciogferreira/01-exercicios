@@ -3,15 +3,15 @@ import math
 bob = turtle.Turtle()
 
 #Minha versão
-import turtle
 bob = turtle.Turtle()
-def square(pen, raio):
+
+def circle(pen, raio, angulo):
     circunferencia = 2*math.pi*raio
     arestas = circunferencia / 360
-    for i in range(360):
+    for i in range(angulo):
         pen.fd(arestas)
         pen.lt(1)
-square(bob, 100)
+circle(bob, 100, 90)
 turtle.mainloop()
 
 #manda o bob, manda raio
