@@ -11,7 +11,7 @@ def circle(pen, raio, angulo):
     for i in range(angulo):
         pen.fd(arestas)
         pen.lt(1)
-circle(bob, 100, 90)
+circle(bob, 100,  360)
 turtle.mainloop()
 
 #manda o bob, manda raio
