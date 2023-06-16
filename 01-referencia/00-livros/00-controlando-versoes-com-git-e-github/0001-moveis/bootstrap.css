@@ -1,0 +1,21 @@
+body{
+    background-color: lightsteelblue;
+}
+h1{
+    text-align: center;
+    background-color: coral;
+    color: blue;
+    padding: 3px;
+    border-radius: 5px;
+}
+h2{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+li{
+    list-style: none;
+    background-color: aqua;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}

@@ -14,6 +14,7 @@ def circle(pen, raio, angulo):
 circle(bob, 100,  360)
 turtle.mainloop()
 
+
 #manda o bob, manda raio
 # angulo = circunferencia / 360
 
