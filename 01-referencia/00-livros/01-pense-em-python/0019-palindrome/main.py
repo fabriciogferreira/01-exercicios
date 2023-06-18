@@ -1,10 +1,10 @@
-def is_palindromo(word):
+def is_palindrome(word):
     z = len(word) - 1
     for i in range(len(word)):
         if word[i] != word[z]:
-            return
-        print('i: ', word[i], ':')
-        print('z: ', z)
+            return "This is not palindrome"
         z = z - 1
+    return "This is palindrome"
 
-is_palindromo('ana')
+print(is_palindrome('test'))
+print(is_palindrome('dad')) 
