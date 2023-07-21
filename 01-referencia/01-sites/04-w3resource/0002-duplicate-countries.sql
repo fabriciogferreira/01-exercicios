@@ -1,0 +1,1 @@
+CREATE TABLE duplicate_countries AS (SELECT * FROM countries) WITH NO DATA;
